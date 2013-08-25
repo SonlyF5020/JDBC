@@ -79,10 +79,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JDBCfirst.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JDBCfirst.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JDBCfirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="795" selection-end="795" vertical-scroll-proportion="0.45385778">
+            <state line="20" column="34" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="16" selection-end="16" vertical-scroll-proportion="0.022692889">
               <folding />
             </state>
           </provider>
@@ -483,16 +492,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JDBCfirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="16" selection-end="16" vertical-scroll-proportion="0.022692889">
+        <state line="20" column="34" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JDBCfirst.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="795" selection-end="795" vertical-scroll-proportion="0.45385778">
+        <state line="1" column="8" selection-start="16" selection-end="16" vertical-scroll-proportion="0.022692889">
           <folding />
         </state>
       </provider>
