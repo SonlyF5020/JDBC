@@ -16,11 +16,7 @@ public class JDBCfirst {
 
 
     private void writeResult(ResultSet resultSet) throws SQLException {
-        while (resultSet.next()) {
-            System.out.println(resultSet.getString("yourID"));
-            System.out.println(resultSet.getString("yourName"));
-            System.out.println(resultSet.getString("pointID"));
-        }
+        while (resultSet.next()) {}
     }
 
     public void put(int key, String value) throws ClassNotFoundException, SQLException {
@@ -36,9 +32,14 @@ public class JDBCfirst {
         Class.forName("com.mysql.jdbc.Driver");
         connection = DriverManager.getConnection("jdbc:mysql://localhost/test","twer","");
         statement = connection.createStatement();
-        resultSet = statement.executeQuery("select * from test.map");
+        resultSet = statement.executeQuery("select mapValue from test.map WHERE mapKey="+key+";");
         if (resultSet.next()){
-            return resultSet.getString(2);
+            //here the "1" in getString() means the first column in result sub-table.
+            //since I selected only one column "mapValue" , so the result sub-table contains only one column
+            //so if I use getString(2), it will come out some exceptions.
+
+            // GOT IT!!
+            return resultSet.getString(1);
         }
         return "";
     }
